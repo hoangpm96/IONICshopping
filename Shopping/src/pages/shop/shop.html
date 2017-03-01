@@ -15,4 +15,28 @@
   <button ion-button (click)="onBuy({name: 'Milk', quantity: 2})">Milk</button>
   <button ion-button (click)="onBuy({name: 'Bread', quantity: 1})">Bread</button>
   <button ion-button (click)="onBuy({name: 'Apples', quantity: 10})">Apples</button>
+  <button ion-button color="secondary"> Secondary </button>
+  <button ion-button color="dark"> Dark </button>
+  <button ion-button color="light"> Light </button>
+  <button ion-button color="danger"> Danger </button>
+
+
+  <button ion-button block>Block Button</button>
+
+  <button ion-button round>Round Button</button>
+
+  <button ion-button round outline> Round outline </button>
+
+  <button ion-button icon-left>
+    <ion-icon name="star"></ion-icon>
+  </button>
+ <div>
+   <button ion-button block>Block Button</button>
+ </div>
+
+  <button ion-button full>Full Button</button>
+
+
+    <button ion-button [navPush] = "buyPag">Go Back</button>
+
 </ion-content>
